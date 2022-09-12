@@ -11,7 +11,7 @@ class Product{
     protected $category;
     protected $permit;
 
-    public function __construct($_name, $_price, $_image, $descriptionm, $_category, $permit)
+    public function __construct($_name, $_price, $_image, $_descriptionm, $_category, $_permit)
     {
         $this -> setName($_name);
         $this -> setPrice($_price);
