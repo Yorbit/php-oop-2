@@ -1,0 +1,15 @@
+Classi:
+- Product;
+    -- Category;
+    -- Food,
+    -- Kennel,
+    -- Toy,
+
+- Customer;
+    -- Customer login;
+
+- Order;
+    (customer, product);
+
+- Cart;
+    (product);
