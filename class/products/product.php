@@ -1,5 +1,8 @@
 <?php
 
+require_once __DIR__ . '/food.php';
+require_once __DIR__ . '/toy.php';
+
 class Product{
     protected $name;
     protected $price;
@@ -56,6 +59,10 @@ class Product{
 
     public function setDescription($_description){
         $this-> description = $_description;
+    }
+
+    public function setCategory($_category){
+        $this-> category = $_category;
     }
 
     public function setCategory($_category){
