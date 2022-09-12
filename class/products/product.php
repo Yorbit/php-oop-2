@@ -65,8 +65,8 @@ class Product{
         $this-> category = $_category;
     }
 
-    public function setCategory($_category){
-        $this-> category = $_category;
+    public function setPermit($_permit){
+        $this-> permit = $_permit;
     }
 }
 ?>
