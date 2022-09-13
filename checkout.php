@@ -14,5 +14,15 @@ class Checkout{
         $this->totalPrice = $_totalPrice;
         $this->discount = $_discount;
     } 
+
+    function getCheckout($_product, $_client){
+
+        if ($_client->getFirstName() !== null) {
+            $discountPrice = $price * 20 / 100; 
+            return $discountPrice;
+        } else {
+            return $totalPrice;
+        }
+    }
 }
 ?>
